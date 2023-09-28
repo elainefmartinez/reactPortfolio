@@ -1,12 +1,13 @@
 .navbar {
-    height: 5rem;
-    width: 100 vw;
+    height: 100px;
+    width: 100%;
     max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(118, 82, 118);
 }
 
 .photo {
@@ -20,10 +21,13 @@
     cursor: pointer;
 }
 
-.menu:hover {
-    color: blue;
+.link {
+    color: whitesmoke;
+}
+.link:hover {
+    color: rgb(15, 14, 14);
     padding-bottom: 0.5 rem;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid black;
 
 
 }
