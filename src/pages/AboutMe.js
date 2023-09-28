@@ -5,9 +5,9 @@ import './about.css';
 
 const About = () => {
     return (
-        <section id ="about me">
-            <div className="aboutmecontent">
-                <span className="aboutmetext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, 
+        <section id ="about">
+            <div className="aboutContent">
+                <span className="aboutText"> My name is Elaine Martinez. I am an aspiring Full-Stack developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, 
                 lobortis ut magna varius, blandit rhoncus sem. 
                 Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras non risus mi. 
                 Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet ac. 
