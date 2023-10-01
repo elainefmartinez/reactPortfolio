@@ -1,24 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
+import Navbar from "../components/navbar";
+import About from "./AboutMe";
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
+import Projects from './components/Projects';
 import './Portfolio.css';
 
 
-const Portfolio = () => {
-    return (
-        <section id='portfolio'>
-            <h2 className='portfolioTitle'> Recent Projects</h2>
-            <span className="description"> Below are links to some of my recent projects </span>
-            <li>
-                
-            <h1> <a href= "https://github.com/elainefmartinez/e-commerce.git"> E-Commerce Back End</a></h1>
-            <h1> <a href= "https://github.com/elainefmartinez/Note-Taker.git"> Note Taker</a></h1>   
-            <h1> <a href= "https://github.com/elainefmartinez/readme-generator.git"> README generator</a></h1>
-            <h1> <a href= "https://github.com/elainefmartinez/employee-tracker.git"> Employee Tracker</a></h1>
-            </li>
+function PortfolioContainer ()  {
+   const [currentPage, setCurrentPage] = useState('About');
+
+   const renderPage =() => {
+    if (currentPage === "About") {
+        return <About/>;
+    }
+    if (currentPage ==="Contact") {
+        return<Contact/>;
+    }
+    if (currentPage === "Portfolio") {
+        return<Projects/>;
+    }
+    return <Resume/>
+
+ };
 
 
-        </section>
-    )
+ const handlePageChange =(page) => setCurrentPage(page);
+
+ return (
+    <div>
+        <Navbar currentPage ={currentPage} handlePageChange ={handlePageChange} />
+        {renderPage}
+    </div>
+ )
 
 }
 
-export default Portfolio;
+export default PortfolioContainer;

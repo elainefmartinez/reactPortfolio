@@ -1,20 +1,15 @@
-import Navbar from "./components/navbar";
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import About from './pages/AboutMe';
-import Portfolio from'./pages/Portfolio';
+import PortfolioContainer from "./pages/Portfolio";
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar/>
-        <Routes>
-          <Route path="/" element={<About/>}/> 
-          <Route path="/portfolio" element={<Portfolio/>}/>
-          {/* <Route path="/" element ={<Contact/>}/>
-          <Route path="/" element ={<Resume/>}/> */}
-        </Routes>
-      </Router>
+      
+        <PortfolioContainer/>
+        
+      <Footer/>
+
     </div>
   );
 }

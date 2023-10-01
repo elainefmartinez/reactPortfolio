@@ -1,7 +1,7 @@
 #about {
-    height:calc(100vh - 4rem);
+    height:calc(80vh - 4rem);
     width: 100vw;
-    max-width: 75 rem;
+    max-width: 50 rem;
     margin: 0 auto;
     overflow:hidden;
     position: relative;
@@ -9,11 +9,11 @@
 }
 
 .aboutContent {
-    height: 100vh;
+    height: 80vh;
     width: 100 vw;
     padding: 2rem;
     font-size: 2rem;
-    font-weight: 200;
+    font-weight: 100;
     display: flex;
     flex-direction: column;
 }
