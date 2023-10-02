@@ -1,15 +1,18 @@
 import React from "react";
+import {Document, Page} from 'react-pdf'
+import pdfFile from '../public/Resume.pdf';
 
-
-const Resume = () => {
+function Resume () {
     return (
-        <div id='portfolio'>
-            <h2 className='portfolioTitle'> Here is a link to my resume</h2>
-            <li><a href ="./assets/Resume .pdf">TEST</a></li>
-        
+        <div>
+            < Document file ={pdfFile}>
+                <Page pageNumber={1}/>
+            </Document>
         </div>
-    )
-
+    );
 }
+
+
+
 
 export default Resume;
