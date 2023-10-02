@@ -1,7 +1,7 @@
 import React from "react";
 import './Portfolio.css'; 
 
-const Projects () => {
+const Projects = () => {
     return (
         <div id='portfolio'>
             <h2 className='portfolioTitle'> Recent Projects</h2>
