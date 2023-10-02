@@ -24,7 +24,8 @@ User can run npm i then npm start to view application
 
 ---
 
-## Screenshot:
+## Screenshot:![Portfolio](https://github.com/elainefmartinez/reactPortfolio/assets/85318206/282c4a95-d1e2-4b52-80b4-082c3f324e65)
+
 
 
 ## Contributing:
