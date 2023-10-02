@@ -1,11 +1,11 @@
 import React from "react";
-import pdfFile from '../../assets/Resume.jpg';
+import file from '../../assets/Resume.pdf';
 
 const Resume = () => {
     return (
         <div className="pdflink">
-            <h1> Here is a link </h1>
-            <a className="resume" href ={pdfFile}> View Full Resume</a>
+            <h1>TEST</h1>
+            <a className="newre" href ={file}>View Full Resume</a>
         </div>
     );
 }

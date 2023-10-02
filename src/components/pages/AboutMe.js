@@ -7,15 +7,13 @@ const About = () => {
     return (
         <section id ="about">
             <div className="aboutContent">
-                <span className="aboutText"> My name is Elaine Martinez. I am an aspiring Full-Stack developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, 
-                lobortis ut magna varius, blandit rhoncus sem. 
-                Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras non risus mi. 
-                Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet ac. 
-                Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum ligula in tincidunt commodo. 
-                Morbi sit amet mollis orci, in tristique ex. 
-                Donec nec ornare elit. Donec blandit est sed risus feugiat porttitor.
-                 Vestibulum molestie hendrerit massa non consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus.
-                 Interdum et malesuada fames ac ante ipsum primis in faucibus.</span>
+                <span className="aboutText"> My name is Elaine Martinez. I am an aspiring Full-Stack developer. 
+                I have worked for Target for six years and am currently a Senior Specialist within Target.com.  
+                Over the last two years I have had the opportunity to attend coding bootcamps with both Hackbright Academy  
+                and the University of Minnesota.  While I have worn many hats during my time with Target, I can say with confidence 
+                I have enjoyed having the opportunity to learn coding the most. 
+                
+                </span>
             </div>
         </section>
     )
