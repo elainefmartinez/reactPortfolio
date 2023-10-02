@@ -1,14 +1,11 @@
 import React from "react";
-import {Document, Page} from 'react-pdf'
-import pdfFile from '../../assets/Resume.pdf';
+import pdfFile from '../../assets/Resume.jpg';
 
 const Resume = () => {
     return (
-        <div>
+        <div className="pdflink">
             <h1> Here is a link </h1>
-            <Document file ={pdfFile}>
-                <Page pageNumber={1}/>
-            </Document>
+            <a className="resume" href ={pdfFile}> View Full Resume</a>
         </div>
     );
 }
