@@ -11,6 +11,7 @@ const Projects = () => {
                 <li> <a className= "project" href= "https://github.com/elainefmartinez/Note-Taker.git"> Note Taker</a></li>   
                 <li> <a className ="project" href= "https://github.com/elainefmartinez/readme-generator.git"> README generator</a></li>
                 <li> <a className= "project" href= "https://github.com/elainefmartinez/employee-tracker.git"> Employee Tracker</a></li>
+                <li> <a className= "project" href = "https://github.com/elainefmartinez/Pets.git"> Pet Blog </a></li>
             </div>
 
 
